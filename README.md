@@ -1,4 +1,4 @@
-# # This is an web application CountriesApp
+# This is an web application CountriesApp
 
 This project was generated with [Angular CLI] and Angular 7.
 
