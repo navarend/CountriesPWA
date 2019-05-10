@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule }  from "@angular/common/http";
-import { APP_ROUTING } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountryComponent } from './pages/country/country.component';
 import { CountriesComponent } from './pages/countries/countries.component';
@@ -17,7 +17,7 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING,
+    AppRoutingModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
